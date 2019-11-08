@@ -1,11 +1,21 @@
 {
-  "name": "k8s-commands",
+  "name": "@qlee/k8s-commands",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
   },
   "author": "li-qiang",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.11.0",
+    "@types/node": "^12.11.7",
+    "alfy": "^0.9.1",
+    "kubernetes-client": "^8.3.4",
+    "rxjs": "^6.5.3",
+    "typescript": "^3.6.4"
+  }
 }
