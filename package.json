@@ -11,10 +11,10 @@
   "author": "li-qiang",
   "license": "ISC",
   "dependencies": {
-    "@kubernetes/client-node": "^0.11.0",
+    "@kubernetes/client-node": "^0.18.1",
     "@types/node": "^12.11.7",
     "alfy": "^0.9.1",
-    "kubernetes-client": "^8.3.4",
+    "kubernetes-client": "^8.3.7",
     "rxjs": "^6.5.3",
     "typescript": "^3.6.4"
   }
